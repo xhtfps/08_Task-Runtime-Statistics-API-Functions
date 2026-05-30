@@ -50,7 +50,7 @@ extern uint32_t SystemCoreClock;
 #define configUSE_DAEMON_TASK_STARTUP_HOOK              0                       /* 1: 使能定时器服务任务首次执行前的钩子函数, 默认: 0 */
 
 /* 运行时间和任务状态统计相关定义 */
-#define configGENERATE_RUN_TIME_STATS                   0                       /* 1: 使能任务运行时间统计功能, 默认: 0 */
+#define configGENERATE_RUN_TIME_STATS                   1                       /* 1: 使能任务运行时间统计功能, 默认: 0 */
 #if configGENERATE_RUN_TIME_STATS
 #include "./BSP/TIMER/btim.h"
 #define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS()        ConfigureTimeForRunTimeStats()
