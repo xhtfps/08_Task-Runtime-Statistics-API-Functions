@@ -1,0 +1,42 @@
+# Build output
+Output/
+Projects/MDK-ARM/Output/
+
+# IDE files
+.vscode/
+Projects/MDK-ARM/.vscode/
+Projects/MDK-ARM/*.uvguix*
+Projects/MDK-ARM/*.uvoptx
+
+# JLink
+Projects/MDK-ARM/JLinkLog.txt
+Projects/MDK-ARM/JLinkSettings.ini
+
+# Event Recorder
+Projects/MDK-ARM/EventRecorderStub.scvd
+
+# Object files
+*.o
+*.d
+*.crf
+*.lst
+*.iex
+
+# Binary output
+*.axf
+*.hex
+*.map
+*.sct
+*.dep
+*.lnp
+*.htm
+
+# Backup
+*_sct.Bak
+*.bak
+
+# Keil
+keilkill.bat
+
+# Personal config
+.claude/
