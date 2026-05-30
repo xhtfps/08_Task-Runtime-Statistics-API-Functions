@@ -114,7 +114,7 @@ void task2(void * pvParameters)
 	while(1)
 	{
 		uint8_t key = key_scan(0);
-		if(key == KEY0_PRES)
+		if(key == WKUP_PRES)	/* 当按下WKUP按键时, 打印任务运行时间统计信息 */
 		{
 			vTaskGetRunTimeStats(task_buf);
 			printf("%s\r\n", task_buf);
